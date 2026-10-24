@@ -1,0 +1,28 @@
+.TargetInfoMain{
+    height: 40%;
+    width: 30%;
+    visibility: collapse;
+    vertical-align: bottom;
+    flow-children: down;
+}
+#TargetInfoName{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+#TargetInfoBarsContainer{
+    height: 70%;
+    width: 100%;
+    margin-top: 10px;
+    flow-children: down;
+}
+.TargetBar{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 1px;
+}
+#TargetInfoModifiers{
+    width: 100%;
+    height: 10%;
+    flow-children: right;
+}

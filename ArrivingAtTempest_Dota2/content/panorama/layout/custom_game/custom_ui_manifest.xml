@@ -1,0 +1,19 @@
+<root>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/manifest.js" />
+        <include src="file://{resources}/scripts/custom_game/lib/ClientGameTables.js" />
+        <include src="file://{resources}/scripts/custom_game/lib/util.js" />
+        <include src="file://{resources}/scripts/custom_game/lib/Vector.js" />
+        <include src="file://{resources}/scripts/custom_game/movement.js" />
+        <include src="file://{resources}/scripts/custom_game/hud/xpbar.js" />
+        <include src="file://{resources}/scripts/custom_game/hud/targetinfo.js" />
+        <include src="file://{resources}/scripts/custom_game/hud/healthbar.js" />
+        <include src="file://{resources}/scripts/custom_game/hud/manabar.js" />
+    </scripts>
+    <Panel>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/hud.xml" />
+
+        <!-- Preload: -->
+		<!-- /Preload -->
+    </Panel>
+</root>

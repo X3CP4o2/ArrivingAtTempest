@@ -1,0 +1,27 @@
+"DOTAAbilities"
+{
+
+    "item_weapon_test_1h"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"item_lua"
+		"Model"						"models/heroes/alchemist/alchemist_sword.vmdl"
+        "Scale"                     "1"
+        "ScriptFile"                "customstats/CustomItem"
+		"AbilityTextureName"        "item_desolator"
+
+        "ItemShareability"                  "ITEM_FULLY_SHAREABLE"
+        "ItemKillable"                      "0"
+        "ItemSellable"                      "1" 
+        "ItemPurchasable"                   "1"
+        "ItemDroppable"                     "1" 
+        "ItemPermanent"                     "1"
+        "ItemCost"                          "100" 
+        "ItemQuality"                       "common"
+        
+        "OnlyPlayerHeroPickup"			    "1"
+        "DisplayOverheadAlertOnReceived"	"1"
+        "ItemCastOnPickup"                	"0"
+	}
+}

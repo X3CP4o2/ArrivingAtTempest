@@ -1,0 +1,22 @@
+<root>
+    <scripts>
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud.css" />
+        <include src="file://{resources}/styles/custom_game/hud/targetinfo.css" />
+    </styles>
+    <Panel hittest="false" class="TargetInfoMain">
+        <Label hittest="false" id="TargetInfoName" text="TargetInfoName"> </Label>
+        <Panel hittest="false" id="TargetInfoBarsContainer">
+            <Panel hittest="false" id="TargetInfoHealthBar" class="TargetBar" ></Panel>
+            <Panel hittest="false" id="TargetInfoManaBar" class="TargetBar" ></Panel>
+        </Panel>
+        <Panel id="TargetInfoModifiers">
+            <Panel id="TargetInfoBuffs"></Panel>
+            <Panel id="TargetInfoDebuffs"></Panel>
+            <!-- <DOTABuffList id="buffs" showdebuffs="false" />
+			<DOTABuffList id="debuffs" showbuffs="false" /> -->
+        </Panel>
+    </Panel>
+</root>

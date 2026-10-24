@@ -1,0 +1,17 @@
+# Local dependencies and macOS metadata
+node_modules/
+.DS_Store
+._*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

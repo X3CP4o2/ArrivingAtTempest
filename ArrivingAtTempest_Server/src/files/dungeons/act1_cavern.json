@@ -1,0 +1,69 @@
+{
+    "name": "cavern",
+    "tileSet": "radiant_cavern",
+    "disableDayNight": true,
+    "daytime": "night",
+    "levels": [
+        {
+            "minTiles": 6,
+            "maxTiles": 8,
+            "checkpoint": true,
+            "canTeleport": true,
+            "areaLevel": 1
+        },
+        {
+            "minTiles": 4,
+            "maxTiles": 6,
+            "boss": true,
+            "canTeleport": true,
+            "areaLevel": 1
+        }
+    ],
+    "spawnGroups": {
+        "g1" : [
+            {
+                "defaultSize": 0.5,
+                "unit": ""
+            },
+            {
+                "defaultSize": 1,
+                "unit": ""
+            }
+        ],
+        "g2" : [
+            {
+                "defaultSize": 0.5,
+                "unit": ""
+            },
+            {
+                "defaultSize": 1,
+                "unit": ""
+            }
+        ],
+        "w1" : [
+            {
+                "defaultSize": 1,
+                "unit": ""
+            }
+        ]
+    },
+    "chests" : {
+        "1": {
+            "spawnChance": 20
+        },
+        "2": {
+            "spawnChance": 35
+        },
+        "3": {
+            "spawnChance": 60
+        },
+        "4": {
+            "spawnChance": 80
+        }
+    },
+    "special": {
+        "1": {
+
+        }
+    }
+}

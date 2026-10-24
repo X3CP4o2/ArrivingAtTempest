@@ -1,0 +1,13 @@
+<root>
+    <scripts>
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud.css" />
+    </styles>
+    <Panel hittest="true" class="ModifierMain">
+        <Image defaultsrc="file://{images}/spellicons/empty.png" scaling="strech-to-fit-y-preserve-aspect" hittest="false" class="ModifierImage" />
+        <Label class="ModifierStack Hidden" text="0" />
+        <Panel hittest="false" class="ModifierDuration Hidden"> </Panel>
+    </Panel>
+</root>

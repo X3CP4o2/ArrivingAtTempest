@@ -1,0 +1,8 @@
+"DOTAAbilities"
+{
+    "lost_siren_sleep"
+    {
+        "BaseClass"						"ability_lua"
+	    "ScriptFile"					"abilities/units/lost_siren_sleep"
+    }
+}

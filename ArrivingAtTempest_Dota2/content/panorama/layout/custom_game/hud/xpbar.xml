@@ -1,0 +1,11 @@
+<root>
+    <scripts>
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud/xpbar.css" />
+    </styles>
+    <Panel hittest="false" class="XPBarMain">
+        <ProgressBar id="ProgressBar" min="0" max="100" value="0" />
+    </Panel>
+</root>

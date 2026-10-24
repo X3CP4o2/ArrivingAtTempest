@@ -1,0 +1,24 @@
+{
+    "npc_trap_cavern_lostsiren": {
+        "custom_stats": {
+            "HealthFlat": [
+                9
+            ],
+            "HealthRegenFlat": [
+                0.05
+            ],
+            "ColdAttackDamageMin": [
+                4
+            ],
+            "ColdAttackDamageMax": [
+                8
+            ],
+            "AttackspeedFlat": [
+                2.5
+            ]
+        }
+    },
+    "": {
+
+    }
+}

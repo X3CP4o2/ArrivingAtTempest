@@ -1,0 +1,8 @@
+"DOTAAbilities"
+{
+    "trap_falling_rock"
+    {
+        "BaseClass"						"ability_lua"
+	    "ScriptFile"					"abilities/traps/FallingRock"
+    }
+}

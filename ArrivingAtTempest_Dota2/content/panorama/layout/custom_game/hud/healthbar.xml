@@ -1,0 +1,12 @@
+<root>
+    <scripts>
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud.css" />
+        <include src="file://{resources}/styles/custom_game/hud/healthbar.css" />
+    </styles>
+    <Panel hittest="false" class="HealthBarMain">
+        <ProgressBar id="ProgressBar" min="0" max="100" value="0" />
+    </Panel>
+</root>

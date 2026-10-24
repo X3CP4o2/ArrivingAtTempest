@@ -1,0 +1,61 @@
+.MainHud {
+    width: 100%;
+    height: 100%;
+}
+#Bottom{
+    width:100%;
+    height: 10%;
+    vertical-align: bottom;
+}
+#HeroXPBarContainer {
+    width: 100%;
+    height: 40%;
+    vertical-align: bottom;
+}
+
+#Left{
+    width: 5%;
+    height: 70%;
+    horizontal-align: left;
+    vertical-align: bottom;
+    /* background-color: blueviolet; */
+    margin-bottom: 5%;
+    flow-children: down;
+}
+
+#HeroHealthBarContainer{
+    width: 100%;
+    height: 50%;
+}
+
+#HeroHealthBarContainer ProgressBar{
+    vertical-align: center;
+    width: 300px;
+    height: 10%;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+    y: 38px;
+}
+
+#HeroManaBarContainer{
+    width: 100%;
+    height: 50%;
+}
+
+#HeroManaBarContainer ProgressBar{
+    vertical-align: center;
+    width: 300px;
+    height: 10%;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+    y: -38px;
+}
+
+#Top{
+    vertical-align: top;
+    width: 100%;
+    height: 20%;
+}
+
+#Top #TargetInfoContainer{
+    horizontal-align: center;
+    vertical-align: center;
+}

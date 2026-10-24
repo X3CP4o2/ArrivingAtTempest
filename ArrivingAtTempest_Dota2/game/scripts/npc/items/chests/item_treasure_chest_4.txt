@@ -1,0 +1,43 @@
+"DOTAAbilities"
+{
+
+    "item_treasure_chest_4"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"item_lua"
+        "Scale"                     "0.65"
+		"Model"						"models/chest_treasure_03.vmdl"
+        "ScriptFile"                "abilities/interactables/Chests.lua"
+		"AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityTextureName"        "item_desolator"
+
+        "ItemShareability"                  "ITEM_FULLY_SHAREABLE"
+        "ItemKillable"                      "0"
+        "ItemSellable"                      "0" 
+        "ItemPurchasable"                   "0"
+        "ItemDroppable"                     "1" 
+        "ItemPermanent"                     "0"
+        "ItemCost"                          "99999" 
+        "ItemQuality"                       "consumable"
+        
+        // "AbilityCooldown"                   "0.0"
+        "AbilityChannelTime"                "1.5"
+        "AbilityUnitTargetType"			    "DOTA_UNIT_TARGET_HERO"
+        "UIPickupSound"					    "Item.PickUpGemShop"
+        "OnlyPlayerHeroPickup"			    "1"
+        "CreepHeroPickup"				    "1"
+        "DisplayOverheadAlertOnReceived"	"0"
+        "ItemCastOnPickup"                	"1"
+
+		// Custom Values
+		// -------------
+		"ReplaceOnOpen"						"models\chest_treasure_04.vmdl"
+		// ChannelChestEffect				""
+		"FinishChestEffect"				    "particles/generic_gameplay/item_received_sparkles.vpcf"
+
+        "StartChestSound"                   "Item.Treasure.Chest.Wooden.Start"
+        "FailChestSound"                    "Item.Treasure.Chest.Wooden.Fail"
+        "SuccessChestSound"                 "Item.Treasure.Chest.Wooden.Success"
+	}
+}

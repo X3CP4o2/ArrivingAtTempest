@@ -1,0 +1,39 @@
+{
+    "prefix_crumbling": {
+        "level": 1,
+        "weight": 90,
+        "rarity": "magic",
+        "excludeSlots": [],
+        "onlySlots": [],
+        "inheritsPrefixes": [],
+        "stats": {
+            "PhysicalAttackDamageMin": 1,
+            "PhysicalAttackDamageMax": 5
+        }
+    },
+    "prefix_weak": {
+        "level": 5,
+        "weight": 90,
+        "rarity": "magic",
+        "excludeSlots": [],
+        "onlySlots": [],
+        "inheritsPrefixes": [],
+        "stats": {
+            "PhysicalAttackDamageMin": 3,
+            "PhysicalAttackDamageMax": 10
+        }
+    },
+    "prefix_c": {
+        "level": 10,
+        "weight": 90,
+        "rarity": "magic",
+        "excludeSlots": [],
+        "onlySlots": [],
+        "inheritsPrefixes": [],
+        "stats": {
+            "PhysicalAttackDamageMin": 7,
+            "PhysicalAttackDamageMax": 18
+        }
+    }
+
+}

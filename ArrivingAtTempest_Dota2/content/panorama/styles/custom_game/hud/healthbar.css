@@ -1,0 +1,17 @@
+#ProgressBar{
+    box-shadow: 1px 1px 0px #000000dd;
+    background-color: rgb(37, 126, 19);
+    width: 95%;
+    height: 20px;
+    vertical-align: bottom;
+    horizontal-align: center;
+    border-radius: 3px;
+}
+
+#ProgressBar_Left{
+    background-color: rgb(7, 233, 26);
+}
+
+#ProgressBar_Right{
+
+}

@@ -1,0 +1,22 @@
+.XPBarMain{
+    width: 100%;
+    height: 100%;
+}
+
+#ProgressBar{
+    box-shadow: 1px 1px 0px #000000dd;
+    background-color: rgb(43, 24, 53);
+    width: 95%;
+    height: 20px;
+    vertical-align: bottom;
+    horizontal-align: center;
+    border-radius: 3px;
+}
+
+#ProgressBar_Left{
+    background-color: rgb(96, 60, 133);
+}
+
+#ProgressBar_Right{
+
+}

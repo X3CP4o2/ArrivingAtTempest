@@ -1,0 +1,42 @@
+"DOTAAbilities"
+{
+
+    "item_treasure_chest_3"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"item_lua"
+		"Model"						"models/props_generic/chest_treasure_02.vmdl"
+        "ScriptFile"                "abilities/interactables/Chests.lua"
+		"AbilityBehavior"           "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityTextureName"        "item_desolator"
+
+        "ItemShareability"                  "ITEM_FULLY_SHAREABLE"
+        "ItemKillable"                      "0"
+        "ItemSellable"                      "0" 
+        "ItemPurchasable"                   "0"
+        "ItemDroppable"                     "1" 
+        "ItemPermanent"                     "0"
+        "ItemCost"                          "99999" 
+        "ItemQuality"                       "consumable"
+        
+        // "AbilityCooldown"                   "0.0"
+        "AbilityChannelTime"                "2"
+        "AbilityUnitTargetType"			    "DOTA_UNIT_TARGET_HERO"
+        "UIPickupSound"					    "Item.PickUpGemShop"
+        "OnlyPlayerHeroPickup"			    "1"
+        "CreepHeroPickup"				    "1"
+        "DisplayOverheadAlertOnReceived"	"0"
+        "ItemCastOnPickup"                	"1"
+
+		// Custom Values
+		// -------------
+		"ReplaceOnOpen"						"models\props_generic\chest_treasure_02_open.vmdl"
+		// ChannelChestEffect				""
+		"FinishChestEffect"				    "particles/generic_gameplay/item_received_sparkles.vpcf"
+
+        "StartChestSound"                   "Item.Treasure.Chest.Metal.Start"
+        "FailChestSound"                    "Item.Treasure.Chest.Metal.Fail"
+        "SuccessChestSound"                 "Item.Treasure.Chest.Metal.Success"
+	}
+}

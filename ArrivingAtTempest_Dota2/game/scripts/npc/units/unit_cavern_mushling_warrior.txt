@@ -1,0 +1,108 @@
+"DOTAUnits"{
+    "unit_cavern_mushling_warrior"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/heroes/siren/siren.vmdl"
+		"Level"						"1"
+		"ModelScale" 				"2"
+		"IsBossMonster"				"1"
+		"vscripts"					"units/CustomNPCScript"
+
+
+		//particles
+		//----------------------------------------------------------------
+		"Particles"{
+			"1"{
+				"effect"			"particles/units/lostsiren/lostsiren_feet.vpcf"
+				"controlpoint"		"0"
+				"particleAttach"	"5"
+				"attachment"		"attach_hitloc"
+				"offsetX"			"0"
+				"offsetY"			"0"
+				"offsetZ"			"-50"
+			}
+		}
+
+		//Sound
+		//----------------------------------------------------------------
+		"SoundSet"                     "Unit_LostSiren"
+		"GameSoundsFile"               "soundevents/units/lostsiren.vsndevts"
+		"IdleSoundLoop"                "Unit_LostSiren.IdleLoop"
+
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""
+		"Ability3"					""
+		"Ability4"					""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"2"
+		"AttackAnimationPoint"		"0.5"
+		"AttackAcquisitionRange"	"875"
+		"AttackRange"				"1000"
+		"ProjectileModel"			"particles/watermonster/watermonster_tracking_container.vpcf"
+		"ProjectileSpeed"			"900"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"0"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeAgilityGain"		"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_TOWER"
+		"RingRadius"				"120"
+		"HealthBarOffset"			"175"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1.0"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"1"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"0"
+		"StatusStartingMana"		"0"
+		"StatusManaRegen"			"0"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRAL"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1"
+		"VisionNighttimeRange"		"1"
+    }
+}

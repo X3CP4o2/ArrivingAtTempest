@@ -1,0 +1,103 @@
+Modifierleiste
+Spell System
+FunctionStats sollten networked sein
+Mechanic sollten networked sein
+
+Deadend fertig machen: Mauern bauen, Piranja der über die Brücke springt, FOV Blocker entlang der Mauer setzen, Kiste beim Wasserfall
+curve
+straight
+exit
+
+Lost Siren: Spawn Effect bzw. Animation what ever, Fähigkeit => Sirene Call (Sleep target unit) 
+EntryTile Stonetrap sollte Stein von oben Fallen lassen, der Damage macht
+
+Daten vom Server holen
+Datenspeicher von Serverdaten
+Bei Spawn NPC von Datenspeicher befüllen
+NPC Spawn mit CustomData anpassen
+
+LeftClick called Server (NPC's ansprechen)
+hotbar unten mitte rechts
+potions unten mitte links
+Menü oben links
+Ability bar unten mitte
+
+AreaInfo oben rechts
+Questinfo rechts mittig/unten
+
+ItemSystem
+Quests System (Wie das Interface und welche features sind WIRKLICH notwendig)
+Panorma "worldpanels" (für dialoge und quests) 
+
+Checkpoint System
+Treasure Classes definieren
+Loot Drop System (Quest, Chest, Breakables, Units)
+Chest Loot
+Spawn System (Chests, Gegner)
+Day&Night Cycle in dungeon optionen ausschaltbar machen
+Dungeon Generator
+
+Breakables variationen (skelett?)
+Chest variationen (Steinverstecke, Holzverstecke)
+Actionability Objects
+
+Gamemusik durchhören
+Items die für Environment oder Progress sind ( Axt um Trees zu cutten für secrets oder passagen)
+Chest Icons anpassen
+
+CustomData sollte nur für Heroes, Abilities und Items gesendet werden
+Speichern & Laden
+
+Variierente Boss Stats und Spells (Also zb 4 skills insgesamt und  in einem Run feuer resistence +5 und 1,2 Spell im nächsten cold resistance und 2,4 spell )
+
+#ONGOING
+DungeonDefinition
+Dungeon Gegner
+Serverdaten (Alle gamedaten definieren bzw. anpassen)
+
+#Verschoben
+Cosmetics müssen für alle Hero Variationen ihre Offsets anpassen 
+Beast Compendium ersetzt Gegner CustomData (Stärken und Schwächen)
+
+#Done
+HP bar nach links oben
+MANA bar nach links unten
+Targetinfo oben mittig (Name, HP Balken)
+XP bar nach unten
+RPG Movement
+CustomProjectileManager erstellt
+Remote: Game und Spieler erstellen. Response: gameID und playerData
+DotaPromise
+Teleporter unter Brücke, Teleporter richtig initialisieren
+WaterMonster => Lost Siren, Projectile Effect, Body Effect
+DungeonTiles (Maps) sollten in Hammer direkte Scripts aufrufen(?) => abgeändert: Traps und Trigger haben jetzt einfach ihre Script files. Trigger callen dann die andere EntityScript in hammer.
+Hide HP Bar Modifier
+Cosmetics ausprobieren
+CustomData nur für die aktuellen 3 Levels -1,0,+1
+Breakables zerstörbar mit Model und Onhit/Death Effekt
+Neue Game Music finden und durchschauen (Stand nicht zuvor auf todo)
+Verschiedene Breakables NPC's erstellen, Hitboxen zu Barrels anpassen und model in .txt ändern ( Material rausscreenshoten, upscale, material mit color, normal und spec, im dmx das material ändern)
+Herausfinden warum beim Importieren der Models aus Hammer die Texturen immer schwarz sind ( Vertex Color wird von den Materials gelöscht)
+Map import testen
+HTTP testen
+CustomDamage portieren
+CustomStats portieren
+CustomData portieren
+CustomNetTables implementieren
+Channel Chests + Tutorial
+Chest Effekte und Sounds
+
+#Models für Zukunft
+Troll NPC => models/creeps/neutral_creeps/n_creep_forest_trolls/neutral_stash_troll.vmdl
+
+#Ideen
+Teleporter Puzzle
+
+Quest / Action Item
+--------------------
+Verfluchter Ring, Cycle mit neuer Besitzer bis er stirbt. Aufgabe => letzten besitzer killen und den Bann irgendwann brechen. Item hat dann Boulder Move Actionability
+
+Garn Haggard - Totenbeschwörer (was hat er vorher gemacht? Wurde er aus der Stadt oben verstoßen?) der einen Pakt mit dem Dämon Grauxis schloss.
+Der Dämon bot Garn Unsterblichkeit und das Wissen dunkler Magie, im Gegenzug forderte der Dämon Seelen. Jedoch dürften diese nicht von Garn selbst gefangen werden.
+Darum verfluchte er, während eines Rituals, einen "Ring - kleine Backstory?", welcher die Seelen gefallener Geschöpfe fing. Dem Träger wurden besondere Kräfte verleiht, doch mit der Zeit 
+vernebelte er dessen Gedanken und trieb diesen immer an den Ort des Rituals zurück, um dem Totenbeschwörer die Beute zu überreichen. 

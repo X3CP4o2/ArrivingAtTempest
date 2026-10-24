@@ -1,0 +1,33 @@
+<root>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/hud.js" />
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud.css" />
+    </styles>
+    <Panel hittest="false" class="MainHud">
+        <Panel class="HudArea" id="Top">
+            <Panel id="TargetInfoContainer"></Panel>
+        </Panel>
+        <Panel class="HudArea" id="Left">
+            <Panel id="HeroHealthBarContainer"></Panel>
+            <Panel id="HeroManaBarContainer"></Panel>
+        </Panel>
+        <Panel class="HudArea" id="Right">
+
+        </Panel>
+        <Panel class="HudArea" id="Middle">
+
+        </Panel>
+
+        <Panel class="HudArea" id="Bottom">
+            <!-- <DOTAAbilityList id="abilites" hittest="false"></DOTAAbilityList> -->
+            <Panel id="HeroXPBarContainer"></Panel>
+        </Panel>
+        
+        <!-- <Panel id="HeroAbilityBarContainer">
+
+        </Panel> -->
+    </Panel>
+</root>

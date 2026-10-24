@@ -1,0 +1,230 @@
+"Unit_LostSiren.PreAttack"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/weapons/hero/naga_siren/riptide01.vsnd"
+							"value1"	"sounds/weapons/hero/naga_siren/riptide02.vsnd"
+							"value2"	"sounds/weapons/hero/naga_siren/riptide03.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "0.699707"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "1.000000"  }
+                    "soundlevel"        {   "value"     "75.00000" }
+                    "distance_max"      {   "value"     "1500.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.ProjectileImpact"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/weapons/hero/naga_siren/ensnare_target.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "0.699707"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "1.000000"  }
+                    "soundlevel"        {   "value"     "75.00000" }
+                    "distance_max"      {   "value"     "1500.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.IdleLoop"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/physics/movement/hero/morphling/idle_loop.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "1.0"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "1.100000"  }
+                    "soundlevel"        {   "value"     "69.00000" }
+                    "distance_max"      {   "value"     "1200.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+					"mixgroup"			{	"value"		"Physics"	}
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.Taunt"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/vo/naga_siren/naga_attack_06.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "0.6"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "1.000000"  }
+                    "soundlevel"        {   "value"     "69.00000" }
+                    "distance_max"      {   "value"     "1500.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.Hurt"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/vo/naga_siren/naga_death_01.vsnd"
+							"value1"	"sounds/vo/naga_siren/naga_death_02.vsnd"
+							"value2"	"sounds/vo/naga_siren/naga_death_14.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "1"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "0.900000"  }
+                    "soundlevel"        {   "value"     "69.00000" }
+                    "distance_max"      {   "value"     "1200.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.Death"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/vo/naga_siren/naga_death_01.vsnd"
+							"value1"	"sounds/vo/naga_siren/naga_death_02.vsnd"
+							"value2"	"sounds/vo/naga_siren/naga_death_14.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "1"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "0.800000"  }
+                    "soundlevel"        {   "value"     "85.00000" }
+                    "distance_max"      {   "value"     "1200.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}
+
+"Unit_LostSiren.Spawn"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"	"sounds/vo/naga_siren/naga_rare_03.vsnd"
+                        }
+                    }
+                    "volume"            {   "value"     "1"  }
+                    "pitch_rand_min"    {   "value"     "-0.05000"  }
+                    "pitch_rand_max"    {   "value"     "0.050000"  }
+                    "pitch"             {   "value"     "1.100000"  }
+                    "soundlevel"        {   "value"     "69.00000" }
+                    "distance_max"      {   "value"     "1200.000"  }
+                    "event_type"        {   "value"     "1.000000"  }
+                }
+            }
+        }
+    }
+}

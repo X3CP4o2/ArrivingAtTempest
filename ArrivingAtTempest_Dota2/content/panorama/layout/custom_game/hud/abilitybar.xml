@@ -1,0 +1,11 @@
+<root>
+    <scripts>
+    </scripts>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/hud/abilitybar.css" />
+    </styles>
+    <Panel hittest="false" class="AbilityBarMain">
+        
+    </Panel>
+</root>

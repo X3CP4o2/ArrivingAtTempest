@@ -1,0 +1,30 @@
+// ------    PROPS
+#base "props/breakables/npc_treasure_barrel_1.txt"
+#base "props/breakables/npc_treasure_barrel_2.txt"
+#base "props/breakables/npc_treasure_barrel_3.txt"
+#base "props/breakables/npc_treasure_barrel_4.txt"
+#base "props/breakables/npc_treasure_barrel_5.txt"
+#base "props/breakables/npc_treasure_barrel_6.txt"
+
+#base "props/breakables/npc_treasure_beetle.txt"
+// -----    END PROPS
+
+// ------ TRAPS
+#base "units/traps/unit_cavern_lostsiren.txt"
+
+// -----    END TRAPS
+"DOTAUnits"
+{
+	"Version"	"1"
+
+	"wearable_dummy"
+	{
+		"BaseClass"					"npc_dota_base_additive"
+	}
+
+	"cast_dummy"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Ability1"					"dummy_unit_ability"
+	}
+}
